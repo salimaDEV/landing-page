@@ -1,0 +1,12 @@
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 992px) {
+  #services .services-general {
+    width: 20% !important;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

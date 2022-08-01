@@ -1,0 +1,37 @@
+@media (max-width: 1024px) {
+  .container{
+    width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+#services{
+  .services-general{
+    width: 20% !important;
+  }
+}
+}
+
+@media (max-width: 768px) {
+  #header{
+    .header-general{
+      & .right{
+        display: none;
+      }
+      &__nav{
+
+      }
+    }
+  }
+}
+@media (min-width: 769px) {
+  #header{
+    .header-general{
+      & .right{
+      }
+      &__nav{
+
+      }
+    }
+  }
+}
